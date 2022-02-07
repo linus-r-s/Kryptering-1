@@ -27,7 +27,7 @@ def crack(hashes, dictionary, numbers=False):
             user_cracked = True
             break
     if not user_cracked:
-      print(f'[-] Kunde inte knäcka {user_name}.')
+      print(f'[-] Kunde inte knäcka lösenordet för {user_name}.')
     end = time.time()
     total_time = end - start
 

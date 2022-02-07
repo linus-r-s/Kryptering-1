@@ -9,3 +9,6 @@ def gen_hashes():
   with open('user_hashes.txt', 'w') as f:
     for line in hashes:
       f.write(line + '\n')
+
+if __name__ == '__main__':
+  gen_hashes()
