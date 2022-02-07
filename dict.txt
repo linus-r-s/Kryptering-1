@@ -1,0 +1,5 @@
+password
+lösenord
+hemligt
+polis
+godis
